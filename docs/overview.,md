@@ -1,0 +1,21 @@
+# Dehydrator Oven Controller — Quick Summary
+
+## Goal
+Embedded temperature control driver for a faculty dehydrator oven.
+
+## My role
+Electronics design (schematic/PCB), firmware development, and integration (plus partial 3D/mechanical integration).
+
+## System overview
+- MCU: (ESP32 / STM32 / Arduino — specify)
+- Sensors: (e.g., NTC / thermocouple / DS18B20 — specify)
+- Actuation: (MOSFET / SSR / TRIAC — specify)
+- Control: (On/Off with hysteresis / PID — specify)
+
+## Key features
+- Temperature acquisition + filtering
+- Safety logic (limits / sensor fault handling) if applicable
+- Maintainable wiring + modular firmware
+
+## Evidence
+See `media/` for photos and `hardware/` for schematic/PCB.
